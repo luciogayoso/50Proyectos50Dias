@@ -1,0 +1,74 @@
+.container{
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+h1{
+color: aliceblue;
+margin: 50px;
+}
+
+.titulo1{
+display: block;
+transition-duration: 0.5s;
+}
+.titulo2{
+display: none;
+transition-duration: 0.5s;
+}
+.titulo3{
+display: none;
+transition-duration: 0.5s;
+}
+.titulo4{
+display: none;
+transition-duration: 0.5s;
+}
+.titulo5{
+display: none;
+transition-duration: 0.5s;
+}
+
+.container div{
+    transition-duration: 2s;
+    transition-property: width;
+    display:flex;
+    align-items: flex-end;
+    width: 400px;
+    height: 80vh;
+    margin: 10px;
+    border-radius: 50px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+   background-attachment: fixed;
+
+}
+
+div .paisaje1{
+    width: 4000px;
+    background-size: "90% 90%";
+    background-image: url("../Img/desktop-wallpaper-background-high-resolution-background-landscapes-nature-graphy-the.jpg");
+}
+
+.paisaje2{
+    background-image: url("../Img/objetos-roca-natural-enmarcan-tranquilo-paisaje-acuatico-ia-generativa_188544-12636.avif");
+}
+
+.paisaje3{
+    background-image: url("../Img/b12b53e6955032f1010a42a7fb6f54cb.jpg");
+}
+
+.paisaje4{
+    background-image: url("../Img/fondos-paisajes-1024.jpg");
+}
+
+.paisaje5{
+    background-image: url("../Img/imagen1.avif");
+}
