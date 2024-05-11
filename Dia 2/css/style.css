@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:rgb(12, 8, 22);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container-progres{
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.progreso{
+    position: absolute;
+    margin-top: 18px;
+    height: 3px;
+    z-index: 1;
+    width: 50vw;
+}
+
+progress[value]{
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.progreso::-webkit-progress-bar{
+    background-color:rgb(126, 122, 122) ;
+}
+
+.progreso::-webkit-progress-value{
+    background-color: rgb(83, 83, 194);
+    transition:0.5s;
+}
+
+.container-progres .circulo1{
+    border: 2px solid rgb(83, 83, 194);
+    transition:0.5s;
+}
+
+.container-progres div{
+    background-color:rgb(12, 8, 22);
+    color:white;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(168, 168, 169);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.btn-conttol{
+    display: flex;
+    justify-content: center;
+}
+
+.btn:disabled{
+    background-color: rgb(148, 148, 151);
+    color: white;
+    border: 1px solid rgb(127, 122, 122);
+}
+
+.btn{
+    background-color: rgb(120, 120, 255);
+    color: white;
+    border: 1px solid rgb(224, 217, 217);
+    font-size: 1em;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 8px;
+}
