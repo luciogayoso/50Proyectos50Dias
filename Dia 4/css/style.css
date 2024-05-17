@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(125, 79, 211);
+    height: 100vh;
+}
+
+.contenedor{
+    transition: 3s;
+    height: 50px;
+    position: relative;
+    display: flex;
+}
+
+.contenedorCambio{
+    height: 50px;
+    width: 340px;
+    display: flex;
+}
+
+.imgContenedor img{
+    width: 30px;
+    height: 30px;
+}
+
+.imgContenedor{
+    width: 50px;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buscarClass{
+    transition: width 0.2s linear;
+    width: 0px;
+    border: 1px solid white;
+    outline-width: 0;
+}
+
+.buscarClassOpen{
+    transition: width 0.2s linear;
+    border: 1px solid white;
+    outline-width: 0;
+    width: 200px;
+    height: 45px;
+    font-size: 1.2em;
+    padding:2px 30px 2px 15px;
+}
+
+
