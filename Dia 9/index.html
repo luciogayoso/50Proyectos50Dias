@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sonidos">
+            <audio id="applause" src="sonido/applause.mp3"></audio>
+            <audio id="boo" src="sonido/boo.mp3"></audio>
+            <audio id="gasp" src="sonido/gasp.mp3"></audio>
+            <audio id="tada" src="sonido/tada.mp3"></audio>
+            <audio id="victory" src="sonido/victory.mp3"></audio>
+            <audio id="wrong" src="sonido/wrong.mp3"></audio>
+        </div>
+        <div class="botones">
+            <button onclick="sonido(event)" class="btn">applause</button>
+            <button onclick="sonido(event)" class="btn">boo</button>
+            <button onclick="sonido(event)" class="btn">gasp</button>
+            <button onclick="sonido(event)" class="btn">tada</button>
+            <button onclick="sonido(event)" class="btn">victory</button>
+            <button onclick="sonido(event)" class="btn">wrong</button>
+        </div>
+    </div>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
